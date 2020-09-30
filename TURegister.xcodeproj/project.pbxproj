@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A977988B2525259700328819 /* TUEligibleBuildings.json in Resources */ = {isa = PBXBuildFile; fileRef = A977988A2525259700328819 /* TUEligibleBuildings.json */; };
+		A97798932525261500328819 /* BuildingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97798922525261500328819 /* BuildingListViewModel.swift */; };
+		A97798A62525269400328819 /* BuildingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97798A52525269400328819 /* BuildingModel.swift */; };
+		A9E5EFD02524B11B003DBF13 /* TURegisterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5EFCF2524B11B003DBF13 /* TURegisterApp.swift */; };
+		A9E5EFD22524B11B003DBF13 /* BuildingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5EFD12524B11B003DBF13 /* BuildingListView.swift */; };
+		A9E5EFD42524B11B003DBF13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E5EFD32524B11B003DBF13 /* Assets.xcassets */; };
+		A9E5EFD72524B11B003DBF13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E5EFD62524B11B003DBF13 /* Preview Assets.xcassets */; };
+		A9E5F0312524B24C003DBF13 /* BuildingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5F0302524B24C003DBF13 /* BuildingButtonView.swift */; };
+		A9E5F0382525072A003DBF13 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5F0372525072A003DBF13 /* Building.swift */; };
+		A9E5F06625251027003DBF13 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5F06525251027003DBF13 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A977988A2525259700328819 /* TUEligibleBuildings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TUEligibleBuildings.json; sourceTree = "<group>"; };
+		A97798922525261500328819 /* BuildingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingListViewModel.swift; sourceTree = "<group>"; };
+		A97798A52525269400328819 /* BuildingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingModel.swift; sourceTree = "<group>"; };
+		A9E5EFCC2524B11B003DBF13 /* TURegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TURegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E5EFCF2524B11B003DBF13 /* TURegisterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TURegisterApp.swift; sourceTree = "<group>"; };
+		A9E5EFD12524B11B003DBF13 /* BuildingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingListView.swift; sourceTree = "<group>"; };
+		A9E5EFD32524B11B003DBF13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9E5EFD62524B11B003DBF13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9E5EFD82524B11B003DBF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E5F0302524B24C003DBF13 /* BuildingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingButtonView.swift; sourceTree = "<group>"; };
+		A9E5F0372525072A003DBF13 /* Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		A9E5F06525251027003DBF13 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9E5EFC92524B11B003DBF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9E5EFC32524B11A003DBF13 = {
+			isa = PBXGroup;
+			children = (
+				A977988A2525259700328819 /* TUEligibleBuildings.json */,
+				A9E5EFCE2524B11B003DBF13 /* TURegister */,
+				A9E5EFCD2524B11B003DBF13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9E5EFCD2524B11B003DBF13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9E5EFCC2524B11B003DBF13 /* TURegister.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E5EFCE2524B11B003DBF13 /* TURegister */ = {
+			isa = PBXGroup;
+			children = (
+				A9E5EFCF2524B11B003DBF13 /* TURegisterApp.swift */,
+				A9E5EFD12524B11B003DBF13 /* BuildingListView.swift */,
+				A97798922525261500328819 /* BuildingListViewModel.swift */,
+				A97798A52525269400328819 /* BuildingModel.swift */,
+				A9E5F0302524B24C003DBF13 /* BuildingButtonView.swift */,
+				A9E5F06525251027003DBF13 /* SettingsView.swift */,
+				A9E5F0372525072A003DBF13 /* Building.swift */,
+				A9E5EFD32524B11B003DBF13 /* Assets.xcassets */,
+				A9E5EFD82524B11B003DBF13 /* Info.plist */,
+				A9E5EFD52524B11B003DBF13 /* Preview Content */,
+			);
+			path = TURegister;
+			sourceTree = "<group>";
+		};
+		A9E5EFD52524B11B003DBF13 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A9E5EFD62524B11B003DBF13 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9E5EFCB2524B11B003DBF13 /* TURegister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E5F01D2524B11D003DBF13 /* Build configuration list for PBXNativeTarget "TURegister" */;
+			buildPhases = (
+				A9E5EFC82524B11B003DBF13 /* Sources */,
+				A9E5EFC92524B11B003DBF13 /* Frameworks */,
+				A9E5EFCA2524B11B003DBF13 /* Resources */,
+				A9D8F3FB252534A300B3B626 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TURegister;
+			productName = TURegister;
+			productReference = A9E5EFCC2524B11B003DBF13 /* TURegister.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9E5EFC42524B11A003DBF13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A9E5EFCB2524B11B003DBF13 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A9E5EFC72524B11A003DBF13 /* Build configuration list for PBXProject "TURegister" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9E5EFC32524B11A003DBF13;
+			productRefGroup = A9E5EFCD2524B11B003DBF13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9E5EFCB2524B11B003DBF13 /* TURegister */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9E5EFCA2524B11B003DBF13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E5EFD72524B11B003DBF13 /* Preview Assets.xcassets in Resources */,
+				A977988B2525259700328819 /* TUEligibleBuildings.json in Resources */,
+				A9E5EFD42524B11B003DBF13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9D8F3FB252534A300B3B626 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9E5EFC82524B11B003DBF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E5F06625251027003DBF13 /* SettingsView.swift in Sources */,
+				A9E5F0312524B24C003DBF13 /* BuildingButtonView.swift in Sources */,
+				A97798A62525269400328819 /* BuildingModel.swift in Sources */,
+				A9E5EFD22524B11B003DBF13 /* BuildingListView.swift in Sources */,
+				A9E5EFD02524B11B003DBF13 /* TURegisterApp.swift in Sources */,
+				A97798932525261500328819 /* BuildingListViewModel.swift in Sources */,
+				A9E5F0382525072A003DBF13 /* Building.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A9E5F0132524B11D003DBF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9E5F0142524B11D003DBF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A9E5F01E2524B11D003DBF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TURegister/TURegister.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TURegister/Preview Content\"";
+				DEVELOPMENT_TEAM = JM92EM7555;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TURegister/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.andicui.ios.TURegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9E5F01F2524B11D003DBF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TURegister/TURegister.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TURegister/Preview Content\"";
+				DEVELOPMENT_TEAM = JM92EM7555;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TURegister/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.andicui.ios.TURegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9E5EFC72524B11A003DBF13 /* Build configuration list for PBXProject "TURegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E5F0132524B11D003DBF13 /* Debug */,
+				A9E5F0142524B11D003DBF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E5F01D2524B11D003DBF13 /* Build configuration list for PBXNativeTarget "TURegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E5F01E2524B11D003DBF13 /* Debug */,
+				A9E5F01F2524B11D003DBF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9E5EFC42524B11A003DBF13 /* Project object */;
+}
